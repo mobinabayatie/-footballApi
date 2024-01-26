@@ -24,7 +24,7 @@ public class footballApp extends JFrame {
 	    public footballApp() {
 	        
 		// Setup GUI and Add a Title
-		super("برنامه نتایج فوتبال");
+		super(" نتایج فوتبال");
 			
 		// Config Gui end program it has been closed
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -58,12 +58,12 @@ public class footballApp extends JFrame {
 	        
 	        
 	        // italy Button
-	        JButton Button1 = new JButton("Italy");
-	        Button1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button1.setBounds(890, 30, 120, 50);
-	        Button1.setBackground(ButtonColor);
-	        Button1.setFont(buttonFont);
-	        Button1.addActionListener(new ActionListener() {
+	        JButton Buttonitaly = new JButton("Italy");
+	        Buttonitaly.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttonitaly.setBounds(890, 30, 120, 50);
+	        Buttonitaly.setBackground(ButtonColor);
+	        Buttonitaly.setFont(buttonFont);
+	        Buttonitaly.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -78,15 +78,15 @@ public class footballApp extends JFrame {
 	                }           
 	            }          
 	        });
-	        add(Button1);
+	        add(Buttonitaly);
 	        
 	        // france Button
-	        JButton Button2 = new JButton("France");
-	        Button2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button2.setBounds(330, 30, 120, 50);
-	        Button2.setBackground(ButtonColor);
-	        Button2.setFont(buttonFont);
-	        Button2.addActionListener(new ActionListener() {
+	        JButton Buttonfrance = new JButton("France");
+	        Buttonfrance.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttonfrance.setBounds(330, 30, 120, 50);
+	        Buttonfrance.setBackground(ButtonColor);
+	        Buttonfrance.setFont(buttonFont);
+	        Buttonfrance.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -101,15 +101,15 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button2);
+	        add(Buttonfrance);
 
 	        // iran Button
-	        JButton Button3 = new JButton("Iran"); 
-	        Button3.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button3.setBounds(610, 30, 120, 50);
-	        Button3.setBackground(ButtonColor);
-	        Button3.setFont(buttonFont);
-	        Button3.addActionListener(new ActionListener() {
+	        JButton Buttoniran = new JButton("Iran"); 
+	        Buttoniran.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttoniran.setBounds(610, 30, 120, 50);
+	        Buttoniran.setBackground(ButtonColor);
+	        Buttoniran.setFont(buttonFont);
+	        Buttoniran.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -124,15 +124,15 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button3);
+	        add(Buttoniran);
  
 	        // england Button
-	        JButton Button4 = new JButton("England");
-	        Button4.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button4.setBounds(190, 30, 120, 50);
-	        Button4.setBackground(ButtonColor);
-	        Button4.setFont(buttonFont);
-	        Button4.addActionListener(new ActionListener() {
+	        JButton Buttonengland = new JButton("England");
+	        Buttonengland.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttonengland.setBounds(190, 30, 120, 50);
+	        Buttonengland.setBackground(ButtonColor);
+	        Buttonengland.setFont(buttonFont);
+	        Buttonengland.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -147,15 +147,15 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button4);
+	        add(Buttonengland);
 	        
 	        // spain Button
-	        JButton Button5 = new JButton("Spain");
-	        Button5.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button5.setBounds(470, 30, 120, 50);
-	        Button5.setBackground(ButtonColor);
-	        Button5.setFont(buttonFont);
-	        Button5.addActionListener(new ActionListener() {
+	        JButton Buttonspain = new JButton("Spain");
+	        Buttonspain.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttonspain.setBounds(470, 30, 120, 50);
+	        Buttonspain.setBackground(ButtonColor);
+	        Buttonspain.setFont(buttonFont);
+	        Buttonspain.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -170,15 +170,15 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button5);
+	        add(Buttonspain);
 	        
 	        // germany Button
-	        JButton Button6 = new JButton("Germany");       
-	        Button6.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button6.setBounds(750, 30, 120, 50);
-	        Button6.setBackground(ButtonColor);
-	        Button6.setFont(buttonFont);
-	        Button6.addActionListener(new ActionListener() {
+	        JButton Buttongermany = new JButton("Germany");       
+	        Buttongermany.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    Buttongermany.setBounds(750, 30, 120, 50);
+	        Buttongermany.setBackground(ButtonColor);
+	        Buttongermany.setFont(buttonFont);
+	        Buttongermany.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -193,15 +193,15 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button6);
+	        add(Buttongermany);
 	        
 	        // world cup Button
-	        JButton Button7 = new JButton("World Cup");
-	        Button7.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
-		    Button7.setBounds(50, 30, 120, 50);
-	        Button7.setBackground(ButtonColor);
-	        Button7.setFont(buttonFont);
-	        Button7.addActionListener(new ActionListener() {
+	        JButton ButtonWCup = new JButton("World Cup");
+	        ButtonWCup.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));			
+		    ButtonWCup.setBounds(50, 30, 120, 50);
+	        ButtonWCup.setBackground(ButtonColor);
+	        ButtonWCup.setFont(buttonFont);
+	        ButtonWCup.addActionListener(new ActionListener() {
 	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	                
@@ -216,7 +216,7 @@ public class footballApp extends JFrame {
 	                }            
 	            }          
 	        });
-	        add(Button7);  
+	        add(ButtonWCup);  
 	        
 	        // set panel color
 	        Color panelColor = new Color(255, 102, 00);
