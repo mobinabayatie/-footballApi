@@ -42,7 +42,7 @@ public class footballApp extends JFrame {
 		setResizable(false);
 	        
 	        // Set background color
-	        Color backgroundColor = new Color(86, 183, 254);
+	        Color backgroundColor = new Color(255, 255, 0);
 	        getContentPane().setBackground(backgroundColor);
 			
 		addGuiComponents();
@@ -51,7 +51,7 @@ public class footballApp extends JFrame {
 	        
 	        
 	        // set colors for buttons
-	        Color ButtonColor = new Color(100, 100, 0);
+	        Color ButtonColor = new Color(51, 153, 255);
 	        
 	        // set fonts for buttons
 	        Font buttonFont = new Font("Arial", Font.BOLD, 16);
@@ -219,7 +219,7 @@ public class footballApp extends JFrame {
 	        add(Button7);  
 	        
 	        // set panel color
-	        Color panelColor = new Color(100, 00, 00);
+	        Color panelColor = new Color(255, 102, 00);
 	        
 	        // main panel setting
 	        Panel = new JPanel();
